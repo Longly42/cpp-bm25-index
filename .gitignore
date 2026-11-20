@@ -1,0 +1,29 @@
+# 构建产物
+build/
+cmake-build-*/
+*.o
+*.obj
+*.so
+*.pyd
+*.dll
+*.a
+*.lib
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+
+# 数据
+data/
+*.bin
+*.idx
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
